@@ -9,9 +9,8 @@ See http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLoca
 ## Examples
 
 - `docker run -t jpbochi/local-dynamodb` starts a server with default options
-
 - `docker run -t -p 18000:8000 jpbochi/local-dynamodb dynamodb -inMemory -sharedDb` starts a server with in-memory database exposed on the port 18000 of the docker host machine
-
+- `docker run -t jpbochi/local-dynamodb dynamodb-version` to verify which version of DynamoDb Local you're running
 - `docker run -t jpbochi/local-dynamodb dynamodb -help` for help
 
 ## Caveats
