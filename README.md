@@ -17,3 +17,7 @@ See http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLoca
 ## Caveats
 
 AWS DynamoDb code `-port` option doesn't work very well. It's advisable to use docker's port mapping instead.
+
+## How does it compare to the competition
+
+`jpbochi/local-dynamodb` is about half the size of `ryanratcliff/dynamodb` or `peopleperhour/dynamodb`. Mine has automation to ensure that images will be tagged with the version of DynamoDB Local that was downloaded.
