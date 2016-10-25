@@ -1,8 +1,10 @@
 # local-dynamodb
 
-`docker pull jpbochi/local-dynamodb` - https://hub.docker.com/r/jpbochi/local-dynamo
+`docker pull jpbochi/local-dynamodb` - https://hub.docker.com/r/jpbochi/local-dynamodb
 
-This is a java image with the AWS official Local DynamoDB (see http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.html).
+This is a java image with the AWS official Local DynamoDB.
+
+See http://docs.aws.amazon.com/amazondynamodb/latest/developerguide/DynamoDBLocal.html
 
 ## Examples
 

@@ -1,0 +1,3 @@
+#!/usr/bin/env sh
+set -e
+java -Djava.library.path=./DynamoDBLocal_lib -jar /srv/DynamoDBLocal.jar "$@"
